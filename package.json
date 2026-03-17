@@ -1,0 +1,28 @@
+{
+  "name": "openharness",
+  "version": "0.1.0",
+  "description": "Local MCP server that lets AI coding agents discover and reference each other's recent sessions.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "openharness": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "ai", "agent", "session", "discovery", "claude", "codex", "gemini"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
