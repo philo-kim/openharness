@@ -1,13 +1,16 @@
 {
   "name": "@freebird-ai/openharness",
-  "version": "0.1.0",
+  "mcpName": "io.github.philo-kim/openharness",
+  "version": "0.1.1",
   "description": "Local MCP server that lets AI coding agents discover and reference each other's recent sessions.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "openharness": "dist/cli.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -18,7 +21,16 @@
     "type": "git",
     "url": "https://github.com/philo-kim/openharness.git"
   },
-  "keywords": ["mcp", "ai", "agent", "session", "discovery", "claude", "codex", "gemini"],
+  "keywords": [
+    "mcp",
+    "ai",
+    "agent",
+    "session",
+    "discovery",
+    "claude",
+    "codex",
+    "gemini"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {

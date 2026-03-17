@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.philo-kim/openharness",
+  "description": "Lets AI coding agents discover and reference each other's recent sessions.",
+  "version": "0.1.1",
+  "repository": {
+    "url": "https://github.com/philo-kim/openharness",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@freebird-ai/openharness",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
