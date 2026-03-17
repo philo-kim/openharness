@@ -20,7 +20,8 @@ AI 코딩 에이전트의 최근 세션 파일을 찾아 서로 참조하게 해
 ## Install
 
 ```bash
-npx @freebird-ai/openharness init
+npm install -g @freebird-ai/openharness
+openharness init
 ```
 
 This registers OpenHarness as an MCP server in each agent's config.
@@ -101,8 +102,8 @@ If you prefer to configure manually instead of using `init`:
 {
   "mcpServers": {
     "openharness": {
-      "command": "npx",
-      "args": ["openharness"]
+      "command": "openharness",
+      "args": []
     }
   }
 }

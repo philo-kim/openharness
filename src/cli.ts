@@ -5,8 +5,8 @@ import { join } from "node:path";
 import { homedir } from "node:os";
 
 const MCP_CONFIG = {
-  command: "npx",
-  args: ["@freebird-ai/openharness"],
+  command: "openharness",
+  args: [] as string[],
 };
 
 interface McpSettings {
@@ -33,8 +33,8 @@ const AGENT_CONFIGS: Array<{
     key: "mcpServers",
   },
   {
-    name: "Amazon Q Developer",
-    path: join(homedir(), ".aws", "amazonq", "mcp.json"),
+    name: "Codex CLI",
+    path: join(homedir(), ".codex", "config.json"),
     format: "json",
     key: "mcpServers",
   },

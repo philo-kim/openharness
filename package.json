@@ -1,7 +1,7 @@
 {
   "name": "@freebird-ai/openharness",
   "mcpName": "io.github.philo-kim/openharness",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Local MCP server that lets AI coding agents discover and reference each other's recent sessions.",
   "type": "module",
   "main": "dist/index.js",
