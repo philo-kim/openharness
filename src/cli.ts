@@ -6,7 +6,7 @@ import { homedir } from "node:os";
 
 const MCP_CONFIG = {
   command: "npx",
-  args: ["openharness"],
+  args: ["@freebird-ai/openharness"],
 };
 
 interface McpSettings {
